@@ -94,7 +94,7 @@ class SecurityScheme extends AbstractAnnotation
      * @inheritdoc
      */
     public static $_types = [
-        'type' => ['http', 'apiKey', 'oauth2', 'openIdConnect'],
+        'type' => ['http', 'apiKey', 'oauth2', 'openIdConnect', 'jwt'],
         'description' => 'string',
         'name' => 'string',
         'bearerFormat' => 'string',
